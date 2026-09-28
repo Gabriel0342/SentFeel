@@ -18,7 +18,7 @@ public class Main {
         String subReddit = "gaming";
 
         try {
-            String url = "https://oauth.reddit.com/r/" + subReddit +".new?limit=100";
+            String url = "https://oauth.reddit.com/r/" + subReddit + "/new?limit=100";
             Connection connection = Jsoup.connect(url)
                     .userAgent("SentFeel/1.0 (contacto: gabriel.fial2005@gmail.com)")
                     .ignoreHttpErrors(true);
